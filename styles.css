@@ -9,11 +9,10 @@ body {
   height: 6715px;
   margin: 10px auto;
   background: #fff;
-  border: 1px solid #ccc;
   font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-nav {
+header {
   display: flex;
   padding: 15px 20px;
   font-size: larger;
@@ -68,5 +67,5 @@ nav {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  margin-top: 10vh;
+  margin-top: 7vh;
 }
