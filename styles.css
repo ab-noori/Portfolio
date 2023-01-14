@@ -1,3 +1,72 @@
-.header {
-  color: blueviolet;
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+section {
+  width: 375px;
+  height: 6715px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+nav {
+  display: flex;
+  padding: 15px 20px;
+  font-size: larger;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+header {
+  background-image: url("images/header-illsutration-mobile.svg");
+  background-color: #fff;
+}
+
+.headline {
+  height: 90vh;
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting-text,
+.profission-text,
+.supporting-text {
+  text-align: center;
+}
+
+.greeting-text,
+.profission-text {
+  margin: 3px;
+  font-size: 1.8em;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.profission-text {
+  color: rgb(66, 188, 148);
+}
+
+.supporting-text {
+  margin: 20px;
+}
+
+.social-media {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
 }
