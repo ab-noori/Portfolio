@@ -1,0 +1,71 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 375px;
+  height: 6715px;
+  margin: 10px auto;
+  background: #fff;
+  font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 15px 20px;
+  font-size: larger;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.welcome-logo {
+  text-decoration: none;
+}
+
+.headline {
+  height: 100vh;
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url("images/header-illsutration-mobile.svg");
+}
+
+.greeting-text,
+.profission-text,
+.supporting-text {
+  text-align: center;
+}
+
+.greeting-text,
+.profission-text {
+  margin: 3px;
+  font-size: 1.8em;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.profission-text {
+  color: rgb(66, 188, 148);
+}
+
+.supporting-text {
+  margin: 20px;
+}
+
+.social-media {
+  width: 60%;
+}
+
+.social-media ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 7vh;
+}
