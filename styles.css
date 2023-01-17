@@ -5,7 +5,9 @@
 }
 
 body {
-  background: #ccc;
+  margin: 0;
+  padding: 0;
+  background: rgb(246, 245, 245);
   font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
