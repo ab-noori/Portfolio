@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
 .header-wrapper,
 .main-wrapper,
 .footer-wrapper {
-  width: 375px;
+  max-width: 375px;
   margin: 0 auto;
   background: #fff;
 }
@@ -29,17 +29,21 @@ header {
 
 .welcome-logo {
   text-decoration: none;
+  color: #333;
 }
 
 .headline {
   height: 100vh;
   display: flex;
-  padding: 5%;
+  padding: 30% 10%;
+  justify-content: last baseline;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  background: url("images/header-illsutration-mobile.svg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
   background-color: #fff;
-  background-image: url("images/header-illsutration-mobile.svg");
 }
 
 .greeting-text,
@@ -52,8 +56,7 @@ header {
 .profission-text {
   margin: 3px;
   font-size: 1.8em;
-  font-weight: 800;
-  line-height: 1.5;
+  font-weight: 700;
 }
 
 .profission-text {
@@ -61,9 +64,8 @@ header {
 }
 
 .supporting-text {
-  margin: 1rem 2rem;
+  margin: 2rem;
   line-height: 1.6;
-  font-size: 1em;
   font-weight: 500;
 }
 
