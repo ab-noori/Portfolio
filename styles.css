@@ -29,6 +29,7 @@ header {
 
 .welcome-logo {
   text-decoration: none;
+  color: #333;
 }
 
 .headline {
@@ -38,8 +39,11 @@ header {
   justify-content: last baseline;
   flex-direction: column;
   align-items: center;
+  background: url("images/header-illsutration-mobile.svg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
   background-color: #fff;
-  background-image: url("images/header-illsutration-mobile.svg");
 }
 
 .greeting-text,
