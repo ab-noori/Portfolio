@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,36 +17,36 @@ body {
   font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.header-wrapper,
-.main-wrapper,
-.footer-wrapper {
+.wrapper {
   max-width: 375px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
   background: #fff;
 }
 
 header {
+  width: 100%;
   display: flex;
-  padding: 15px 20px;
-  font-size: larger;
+  font-size: 1.3rem;
   font-weight: 600;
+  padding: 1rem 1.3rem;
   justify-content: space-between;
 }
 
-.welcome-logo {
-  text-decoration: none;
+header .welcome-logo {
   color: #333;
+  text-decoration: none;
 }
 
 .headline {
-  height: 100vh;
+  height: 80vh;
   display: flex;
-  padding: 30% 10%;
+  padding: 30% 10% 0;
   justify-content: last baseline;
   flex-direction: column;
   align-items: center;
   background: url("images/header-illsutration-mobile.svg");
-  background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
   background-color: #fff;
