@@ -1,0 +1,24 @@
+<svg width="327" height="144" viewBox="0 0 327 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_48_1498)">
+<circle cx="164" cy="64" r="40" fill="white"/>
+</g>
+<g clip-path="url(#clip0_48_1498)">
+<path d="M160.2 44H169.2C170.4 44 171.2 45.2 171 46.4L166.6 60.8H171.2C172.6 60.8 173.6 62.2 173 63.6L164 82C163.6 82.6 162.6 82.4 162.8 81.6L165 67.6H158C156.8 67.6 156 66.6 156.2 65.4L158.4 45.8C158.4 44.8 159.2 44 160.2 44Z" fill="#36B37E"/>
+<path d="M142.437 56.6706L145.644 54.8185C146.072 54.5716 146.608 54.8406 146.787 55.3153L148.222 61.4238L149.862 60.4772C150.361 60.1891 151.009 60.4892 151.088 61.1185L151.718 69.6189C151.701 69.9181 151.303 70.0516 151.207 69.7214L149.071 64.2101L146.576 65.6506C146.148 65.8975 145.654 65.7008 145.475 65.2261L142.171 57.6914C141.962 57.33 142.08 56.8764 142.437 56.6706Z" fill="#091E42"/>
+<path d="M186.626 56.6706L183.418 54.8185C182.99 54.5716 182.455 54.8406 182.276 55.3153L180.84 61.4238L179.2 60.4772C178.701 60.1891 178.053 60.4892 177.975 61.1185L177.344 69.6189C177.361 69.9181 177.759 70.0516 177.855 69.7214L179.991 64.2101L182.486 65.6506C182.914 65.8975 183.408 65.7008 183.587 65.2261L186.892 57.6914C187.1 57.33 186.982 56.8764 186.626 56.6706Z" fill="#091E42"/>
+</g>
+<defs>
+<filter id="filter0_d_48_1498" x="100" y="16" width="128" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="16"/>
+<feGaussianBlur stdDeviation="12"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.145573 0 0 0 0 0.185183 0 0 0 0 0.5375 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_48_1498"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_48_1498" result="shape"/>
+</filter>
+<clipPath id="clip0_48_1498">
+<rect width="48" height="48" fill="white" transform="translate(140 40)"/>
+</clipPath>
+</defs>
+</svg>
