@@ -156,7 +156,7 @@ header .welcome-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1.1rem;
   position: absolute;
   bottom: 0;
   background: #fff;
@@ -175,16 +175,13 @@ header .welcome-logo {
 }
 
 .project-tags {
-  display: flex;
-  align-items: center;
   padding: 0;
   gap: 8px;
   height: 32px;
+  list-style-type: none;
 }
 
-.project-tags span {
-  display: flex;
-  align-items: center;
+.project-tags li {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
@@ -192,6 +189,8 @@ header .welcome-logo {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
+  float: left;
+  margin-right: 5px;
 }
 
 .cart-summary .btn {
