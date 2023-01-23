@@ -179,6 +179,8 @@ header .welcome-logo {
   gap: 8px;
   height: 32px;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 .project-tags li {
@@ -189,8 +191,6 @@ header .welcome-logo {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
-  float: left;
-  margin-right: 5px;
 }
 
 .cart-summary .btn {
