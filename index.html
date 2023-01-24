@@ -226,9 +226,9 @@
                     so if you'd like to chat please get in touch.
                 </span>
                 <form class="form-itself" action="https://formspree.io/f/{form_id}" method="post">
-                    <input name="name" id="name" type="text" placeholder="Full Name" required>
+                    <input name="name" id="name" type="text" placeholder="Full Name" maxlength="30" required>
                     <input name="Email" id="email" type="email" placeholder="Email Address" required>
-                    <textarea name="textarea" id="textarea"  type="textarea" placeholder="Enter text here" required></textarea>
+                    <textarea name="textarea" id="textarea"  type="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
                     <input name="button" class="btn" id="submit-button" type="submit" value="Get in touch" >
                 </form>
                 <img id="contact-form-illustration" src="images/contact-form-illustration.svg" alt="">
