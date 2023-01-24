@@ -27,7 +27,7 @@ body {
 }
 
 .wrapper {
-  max-width: 375px;
+  width: 375px;
   margin: 0 auto 100px;
   display: flex;
   flex-direction: column;
