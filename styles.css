@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
-  gap: 20px;
+  gap: 40px;
 }
 
 header {
@@ -61,7 +61,7 @@ header .welcome-logo {
   gap: 40px;
 }
 
-/* ---------------------Headline Section----------------------- */
+/* ----------------------------------Headline Section------------------------------------ */
 
 .headline {
   height: 80vh;
@@ -116,7 +116,7 @@ header .welcome-logo {
   bottom: 0;
 }
 
-/* ---------------------Recent Section----------------------- */
+/* ----------------------------------Recent Section------------------------------------ */
 
 .grid {
   display: grid;
@@ -213,7 +213,7 @@ header .welcome-logo {
   font-weight: 500;
 }
 
-/* ---------------------About me Section----------------------- */
+/* ----------------------------------About me Section------------------------------------ */
 
 .about-me {
   width: 100%;
@@ -224,15 +224,11 @@ header .welcome-logo {
 .about-me-header {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
-}
-
-.about-me-header #topright {
-  position: absolute;
-  top: -20px;
-  right: 0;
+  align-items: center;
+  flex-direction: column;
+  background: url("images/aboutme-topright.svg"), url("images/aboutme-bottomleft.svg");
+  background-position: right top, left bottom;
+  background-repeat: no-repeat;
 }
 
 .about-me-header h1 {
@@ -250,12 +246,6 @@ header .welcome-logo {
   text-align: center;
 }
 
-.about-me-header #bottomleft {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
 .about-me-header .btn {
   width: 135px;
   font-weight: 500;
@@ -271,6 +261,7 @@ header .welcome-logo {
 .about-me-carts {
   width: 100%;
   height: 352px;
+  padding-bottom: 5%;
   border-radius: 8px;
   border: 1px solid #c1c7d0;
   background-color: #ebf0ee;
@@ -324,17 +315,18 @@ header .welcome-logo {
   border-radius: 8px;
 }
 
-/* ---------------------form Section----------------------- */
+/* ----------------------------------form Section------------------------------------ */
 
 .from-section {
   width: 100%;
   padding-bottom: 20px;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  display: grid;
   gap: 40px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background: url("images/contact-form-illustration.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 .form-header {
@@ -376,13 +368,7 @@ header .welcome-logo {
   align-self: center;
 }
 
-#contact-form-illustration {
-  position: absolute;
-  right: 0;
-  bottom: -50px;
-}
-
-/* ---------------------form Section----------------------- */
+/* ----------------------------------form Section------------------------------------ */
 
 footer {
   display: flex;
@@ -395,9 +381,13 @@ footer .social-media ul {
   margin: 10px;
 }
 
+/* --------------------------------------------Desktop-View Styles---------------------------------------------- */
+
 @media only screen and (min-width: 768px) {
   .wrapper {
     width: 1440px;
+    margin: 0 auto;
+    gap: 60px;
     background: url("images/Header-llustration-desktop.svg");
     background-position: top;
     background-repeat: no-repeat;
@@ -431,6 +421,8 @@ footer .social-media ul {
     text-decoration: none;
   }
 
+  /* ----------------------------------Headline Section------------------------------------ */
+
   .headline {
     height: 100vh;
     margin: 0;
@@ -446,13 +438,85 @@ footer .social-media ul {
     width: 50%;
   }
 
+  /* ----------------------------------Project Section------------------------------------ */
+
   .recent-work-container {
     width: 1171px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  /* ----------------------------------about-me Section------------------------------------ */
+
   .about-me-carts-container {
     width: 1171px;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-me-header {
+    justify-content: center;
+    background: url("images/aboutme-topright-desktop.svg"), url("images/aboutme-bottomleft-desktop.svg");
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+  }
+
+  .about-me-header p {
+    width: 50%;
+  }
+
+  /* ----------------------------------form Section------------------------------------ */
+
+  .from-section {
+    height: 80vh;
+    justify-items: center;
+    background:
+      url("images/contact-illustratoin-desktop-right.svg"),
+      url("images/contact-illustration-desktop-left.svg"),
+      url("images/contact-illustration-desktop-left-2.svg");
+    background-position: right bottom, left bottom, left 25% bottom;
+    background-repeat: no-repeat;
+  }
+
+  .form-section-container {
+    width: 1171px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2%;
+  }
+
+  .form-header {
+    width: 33%;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: left;
+  }
+
+  .form-itself {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-itself .btn {
+    align-self: flex-start;
+  }
+
+  /* ----------------------------------fotter Section------------------------------------ */
+
+  footer {
+    border-top: 1px solid #dfe1e6;
+  }
+
+  footer .footer-social-media ul {
+    display: flex;
+    gap: 10%;
+    list-style-type: none;
+  }
+
+  footer span {
+    display: none;
   }
 }
