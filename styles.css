@@ -22,13 +22,12 @@
 body {
   margin: 0;
   padding: 0;
-  background: rgb(246, 245, 245);
   font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .wrapper {
   width: 375px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,6 +43,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+header .navbar {
+  display: none;
 }
 
 header .welcome-logo {
@@ -70,7 +73,6 @@ header .welcome-logo {
   background: url("images/header-illsutration-mobile.svg");
   background-position: top;
   background-repeat: no-repeat;
-  background-color: #fff;
 }
 
 .greeting-text,
@@ -187,12 +189,14 @@ header .welcome-logo {
 .project-tags {
   display: flex;
   align-items: center;
+  list-style-type: none;
   padding: 0;
+  margin: 0;
   gap: 8px;
   height: 32px;
 }
 
-.project-tags span {
+.project-tags li {
   display: flex;
   align-items: center;
   padding: 8px 12px;
@@ -303,12 +307,13 @@ header .welcome-logo {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  list-style-type: none;
   padding: 0;
   height: 40px;
   gap: 8px;
 }
 
-.about-cart-tags span {
+.about-cart-tags li {
   display: flex;
   padding: 8px 12px;
   background: #fff;
@@ -388,4 +393,66 @@ footer {
 
 footer .social-media ul {
   margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 1440px;
+    background: url("images/Header-llustration-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    font-weight: 600;
+    font-size: 1.1rem;
+    justify-content: center;
+  }
+
+  header > a {
+    display: none;
+  }
+
+  header .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    margin: 5%;
+    padding: 0;
+    gap: 30px;
+    display: flex;
+    list-style-type: none;
+  }
+
+  .navbar ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .headline {
+    height: 100vh;
+    margin: 0;
+    padding: 8% 30%;
+    background-image: none;
+  }
+
+  .headline h1 br {
+    display: none;
+  }
+
+  .headline .social-media {
+    width: 50%;
+  }
+
+  .recent-work-container {
+    width: 1171px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-me-carts-container {
+    width: 1171px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
