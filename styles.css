@@ -272,6 +272,13 @@ header .welcome-logo {
   border-radius: 8px;
   border: 1px solid #c1c7d0;
   background-color: #ebf0ee;
+  transition: width 0.5s, height 0.5s;
+}
+
+.about-me-carts:hover { 
+  width: 94%;
+  height: 460px;
+  margin: 7px 3% 7px 3%;
 }
 
 .icon-placeholder {
