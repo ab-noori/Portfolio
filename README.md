@@ -10,7 +10,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -53,7 +52,10 @@
 
 
 ### Key Features <a name="key-features"></a>
-
+- **Represent most recent projcts**
+- **Represnt skills and technogies**
+- **Create contact context for visitors**
+- **Responsive with the view of desktop and mobile**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,6 +76,9 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- A Nude.js installed on your local system.
+- A browser of you choice.
+- A text editor of your choice.
 
 
 ### Setup
@@ -84,21 +89,21 @@ Clone this repository to your desired folder:
 ### Install
 
 Install this project with:
+  - You can deploy it with your hosting provider of your choise.
 
 
 ### Usage
 
-To run the project, execute the following command:
-
-### Run tests
-
-To run tests, run the following command:
+- To demonstrate your skills & knowlege of technoly.
+- To represent the most recent project.
+- to maitain connection with visitors.
 
 
 ### Deployment
 
 You can deploy this project using:
-
+- Free deployment services like GitHub pages.
+- Any deployment services of your choice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +122,7 @@ You can deploy this project using:
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-
+- Responsiveness with the all kind of laptop and handheld devices viewport
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
