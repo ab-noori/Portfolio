@@ -1,0 +1,133 @@
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    gap: 60px;
+    background: url("images/Header-llustration-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    font-weight: 600;
+    font-size: 1.1rem;
+    justify-content: center;
+  }
+
+  header > a {
+    display: none;
+  }
+
+  header .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    margin: 5%;
+    padding: 0;
+    gap: 30px;
+    display: flex;
+    list-style-type: none;
+  }
+
+  .navbar ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  /* ----------------------------------Headline Section------------------------------------ */
+
+  .headline {
+    height: 100vh;
+    margin: 0;
+    padding: 8% 30%;
+    background-image: none;
+  }
+
+  .headline h1 br {
+    display: none;
+  }
+
+  .headline .social-media {
+    width: 50%;
+  }
+
+  /* ----------------------------------Project Section------------------------------------ */
+
+  .recent-work-container {
+    width: 1171px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* ----------------------------------about-me Section------------------------------------ */
+
+  .about-me-carts-container {
+    width: 1171px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-me-header {
+    justify-content: center;
+    background: url("images/aboutme-topright-desktop.svg"), url("images/aboutme-bottomleft-desktop.svg");
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+  }
+
+  .about-me-header p {
+    width: 50%;
+  }
+
+  /* ----------------------------------form Section------------------------------------ */
+
+  .from-section {
+    justify-items: center;
+    padding-bottom: 30vh;
+    background:
+      url("images/contact-illustratoin-desktop-right.svg"),
+      url("images/contact-illustration-desktop-left.svg"),
+      url("images/contact-illustration-desktop-left-2.svg");
+    background-position: right bottom, left bottom, left 25% bottom;
+    background-repeat: no-repeat;
+  }
+
+  .form-section-container {
+    width: 1171px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2%;
+  }
+
+  .form-header {
+    width: 33%;
+    padding: 5% 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: justify;
+  }
+
+  .form-itself {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-itself .btn {
+    align-self: flex-start;
+  }
+
+  /* ----------------------------------fotter Section------------------------------------ */
+
+  footer {
+    border-top: 1px solid #dfe1e6;
+    padding: 1%;
+  }
+
+  footer span {
+    display: none;
+  }
+}
