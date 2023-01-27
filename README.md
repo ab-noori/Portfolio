@@ -52,10 +52,10 @@
 
 
 ### Key Features <a name="key-features"></a>
-- **Represent most recent projcts**
-- **Represnt skills and technogies**
-- **Create contact context for visitors**
-- **Responsive with the view of desktop and mobile**
+- **[Represent most recent projcts]**
+- **[Represnt skills and technogies]**
+- **[Create contact context for visitors]**
+- **[Responsive with the view of desktop and mobile]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +122,7 @@ You can deploy this project using:
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-- Responsiveness with the all kind of laptop and handheld devices viewport
+- [ ] **[Responsiveness with the all kind of laptop and handheld devices viewport]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
