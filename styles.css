@@ -159,13 +159,13 @@ header .welcome-logo {
   border-radius: 8px;
   border: 1px solid #d0d9d4;
   background-color: #ebf0ee;
-  transition: width 0.5s, height 0.5s;
+  transition: width 2.5s, height 2.5s;
 }
 
 .recent-work-carts:hover {
-  width: 94%;
-  height: 460px;
-  margin: 7px 3% 7px 3%;
+  width: 98%;
+  height: 464px;
+  margin: 5px 1% 5px 1%;
 }
 
 .cart-summary {
@@ -272,13 +272,13 @@ header .welcome-logo {
   border-radius: 8px;
   border: 1px solid #c1c7d0;
   background-color: #ebf0ee;
-  transition: width 0.5s, height 0.5s;
+  transition: width 2.5s, height 2.5s;
 }
 
-.about-me-carts:hover { 
-  width: 94%;
-  height: 460px;
-  margin: 7px 3% 7px 3%;
+.about-me-carts:hover {
+  width: 96%;
+  height: 342px;
+  margin: 5px 2% 5px 2%;
 }
 
 .icon-placeholder {
