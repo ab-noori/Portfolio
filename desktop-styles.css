@@ -14,26 +14,16 @@
     justify-content: center;
   }
 
-  header > a {
+  .welcome-logo {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+  }
+
+  .hamburger {
     display: none;
-  }
-
-  header .navbar {
-    display: flex;
-    justify-content: center;
-  }
-
-  .navbar ul {
-    margin: 5%;
-    padding: 0;
-    gap: 30px;
-    display: flex;
-    list-style-type: none;
-  }
-
-  .navbar ul li a {
-    color: #333;
-    text-decoration: none;
   }
 
   /* ----------------------------------Headline Section------------------------------------ */

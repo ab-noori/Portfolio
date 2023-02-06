@@ -46,13 +46,58 @@ header {
   justify-content: space-between;
 }
 
-header .navbar {
+header .welcome-logo {
+  color: #333;
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.closeIcon {
   display: none;
 }
 
-header .welcome-logo {
-  color: #333;
-  text-decoration: none;
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgb(231, 243, 247);
+  opacity: 0.6;
+  color: black;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
 }
 
 .main {
