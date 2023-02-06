@@ -68,7 +68,7 @@ header .welcome-logo {
   height: 80vh;
   display: flex;
   padding: 30% 10% 0;
-  justify-content: last baseline;
+  justify-content: baseline;
   flex-direction: column;
   align-items: center;
   background: url("images/header-illsutration-mobile.svg");
