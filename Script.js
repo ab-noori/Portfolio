@@ -1,12 +1,15 @@
 const humburger = document.querySelector('.humburger');
 const navMenu = document.querySelector('.nav-menu');
-const navlink=document.querySelector('.nav-item')
+const navlink=
 humburger.addEventListener('click', () => {
   humburger.classList.toggle('active');
   navMenu.classList.toggle('active');
 });
-navlink.addEventListener ('click', () =>{
-   navMenu.style.display = 'none';
+
+document.querySelectorAll('.nav-link').forEach(links =>links.addEventListener('click', ()=>{
+  humburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}))
    
 
-})
+
