@@ -37,67 +37,94 @@ body {
 }
 
 header {
-  width: calc(100% - 40px);
+  width: calc(100% - 6px);
   font-weight: 600;
   font-size: 1.3rem;
-  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header .welcome-logo {
-  color: #333;
-  position: fixed;
-  z-index: 100;
-  top: 1rem;
-  left: 1rem;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.menuItem {
-  display: block;
-  margin: 2rem 4rem;
-  font-size: 1.8rem;
-  color: rgb(236, 18, 18);
-  text-decoration: none;
-}
-
-.menuItem:hover {
-  text-decoration: underline;
-}
-
-.hamburger {
-  position: fixed;
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  cursor: pointer;
-}
-
-.closeIcon {
-  display: none;
-}
-
-.menu {
-  position: fixed;
-  transform: translateX(100%);
-  transition: transform 0.2s;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background: rgb(21, 54, 65);
-  opacity: 0.6;
+.nav-branding {
   color: black;
-  list-style: none;
-  padding-top: 4rem;
+  text-decoration: none;
 }
 
-.showMenu {
-  transform: translateX(0);
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 60px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  width: 100%;
+  height: 90vh;
+  position: fixed;
+  top: 50px;
+  right: -100%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  opacity: 0.95;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: 0.5s ease;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.humburger {
+  cursor: pointer;
+}
+
+.humburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.humburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.humburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.nav-menu.active {
+  right: 0;
+  left: 8%;
 }
 
 .main {
@@ -248,7 +275,7 @@ header .welcome-logo {
   height: 32px;
 }
 
-.project-tags li {
+.project-tags ul li {
   display: flex;
   align-items: center;
   padding: 8px 12px;
@@ -363,7 +390,7 @@ header .welcome-logo {
   gap: 8px;
 }
 
-.about-cart-tags li {
+.about-cart-tags ul li {
   display: flex;
   padding: 8px 12px;
   background: #fff;
