@@ -1,7 +1,7 @@
-const humburger = document.querySelector(".humburger");
-const navMenu = document.querySelector(".nav-menu");
+const humburger = document.querySelector('.humburger');
+const navMenu = document.querySelector('.nav-menu');
 
-humburger.addEventListener("click", () => {
-    humburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+humburger.addEventListener('click', () => {
+  humburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
