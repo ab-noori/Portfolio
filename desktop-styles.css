@@ -18,6 +18,12 @@
     justify-content: center;
   }
 
+  .navbar ul li a {
+    color: #344563;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
   .humburger {
     display: none;
   }
@@ -31,6 +37,7 @@
     position: static;
     width: unset;
     flex-direction: row;
+    background-color: unset;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
@@ -129,5 +136,20 @@
 
   footer span {
     display: none;
+  }
+
+  /* ---------------------------------------Modal Styles---------------------------------- */
+
+  .modal-header-close-button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 4vw;
+    font-weight: lighter;
+    color: white;
+    position: fixed;
+    top: 1vh;
+    right: 1.5vw;
   }
 }
