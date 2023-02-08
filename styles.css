@@ -59,7 +59,9 @@ header {
 }
 
 .navbar ul li a {
-  color: black;
+  color: #4a3a3b;
+  font-size: 2rem;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -115,10 +117,18 @@ header {
 }
 
 .humburger.active .bar:nth-child(1) {
+  width: 22px;
+  height: 2px;
+  margin: 5px auto;
+  background-color: #67798e;
   transform: translateY(8px) rotate(45deg);
 }
 
 .humburger.active .bar:nth-child(3) {
+  width: 22px;
+  height: 2px;
+  margin: 5px auto;
+  background-color: #67798e;
   transform: translateY(-8px) rotate(-45deg);
 }
 
