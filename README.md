@@ -22,7 +22,8 @@
 
 # 📖 [My-Portfolio] <a name="about-project"></a>
 
-**[My-Portfolio]** is the place of my work history.
+> **[My-Portfolio]** is a project to showcase all of my recent work. It will maitain the information and history of my recent projects,
+ the brave informatin about me, and the link to my resume. it will also provide the context to be in contact with the clients.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,6 +34,7 @@
   <ul>
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
+    <li><a href="#">JAVASCRIP</a></li>
   </ul>
 </details>
 
