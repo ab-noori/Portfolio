@@ -7,31 +7,40 @@
     <meta name="description" content="Abdul Ali Noori's portfolio" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="desktop-styles.css">
+    
     <title>Portfolio</title>
 </head>
 <body>
     <div class="wrapper">
         <header>
             <nav class="navbar">
-
-                <a href="#headline" class="welcome-logo">Noori</a>
-
-                <ul class="menu">
-                    <li><a class="menuItem" href="#">Portfolio</a></li>
-                    <li><a class="menuItem" href="#">Abbout</a></li>
-                    <li><a class="menuItem" href="#">Contact</a></li>
+    
+                <a href="#" class="nav-branding">Noori</a>
+    
+                <ul class="nav-menu">
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recent-work">Portfolio</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#from-section">Contact</a>
+                    </li>
+    
                 </ul>
-
-                <button class="hamburger">
-                    <a class="menuIcon" href="">
-                        <img width="30px" src="images/Icons/Icon-Menu.svg" alt="Humberger menu">
-                    </a>
-                    <a class="closeIcon" href="">
-                        <img width="30px" src="images/Icons/Icon-close.svg" alt="close menu">
-                    </a>
-                </button>
-
+    
+                <div class="humburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+    
             </nav>
+            
         </header>
     
         <main class="main">                       
@@ -173,7 +182,7 @@
 
 <!-- ----------------------------------------About me Setion------------------------------------------- -->
 
-            <section class="about-me grid">
+            <section class="about-me grid" id="about-me">
                 <div class="about-me-header">
                     <h1>Abdout Me</h1>
                     <p> I can help you build a product ,
@@ -236,7 +245,7 @@
 
 <!-- ----------------------------------------Form Setion------------------------------------------- -->
 
-            <section class="from-section">
+            <section class="from-section" id="from-section">
                 <div class="form-section-container">
                     <span class="form-header">
                         I'm always interested in hearing about new projects,
@@ -253,7 +262,6 @@
         </main>
 
 <!-- ----------------------------------------Footer Setion------------------------------------------- -->
-        <script src="/scripts.js"></script>
         <footer>
             <div class="footer-social-media">
                 <ul>
@@ -289,5 +297,8 @@
             </span>
         </footer>
     </div>
+
+    <script src="Script.js">
+    </script>
 </body>
 </html>

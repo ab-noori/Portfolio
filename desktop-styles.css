@@ -14,16 +14,26 @@
     justify-content: center;
   }
 
-  .welcome-logo {
-    position: fixed;
-    z-index: 100;
-    top: 1rem;
-    left: 1rem;
-    cursor: pointer;
+  .navbar {
+    justify-content: center;
   }
 
-  .hamburger {
+  .humburger {
     display: none;
+  }
+
+  .nav-branding {
+    display: none;
+  }
+
+  .nav-menu {
+    height: 40px;
+    position: static;
+    width: unset;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
   }
 
   /* ----------------------------------Headline Section------------------------------------ */
