@@ -1,3 +1,98 @@
+const projectCarts = document.getElementById('project-carts');
+
+const cartsData = [
+  {
+    id: '1',
+    title: 'Multi-Post Stories Gain+Glory',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
+    img: 'images/project-cart-snapshoot.svg',
+    demoLink: 'https://ab-noori.github.io/My-Portfolio',
+    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+  },
+  {
+    id: '2',
+    title: 'Multi-Post Stories Gain+Glory',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
+    img: 'images/project-cart-snapshoot.svg',
+    demoLink: 'https://ab-noori.github.io/My-Portfolio',
+    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+  },
+  {
+    id: '3',
+    title: 'Multi-Post Stories Gain+Glory',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
+    img: 'images/project-cart-snapshoot.svg',
+    demoLink: 'https://ab-noori.github.io/My-Portfolio',
+    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+  },
+  {
+    id: '4',
+    title: 'Multi-Post Stories Gain+Glory',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
+    img: 'images/project-cart-snapshoot.svg',
+    demoLink: 'https://ab-noori.github.io/My-Portfolio',
+    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+  },
+  {
+    id: '5',
+    title: 'Multi-Post Stories Gain+Glory',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
+    img: 'images/project-cart-snapshoot.svg',
+    demoLink: 'https://ab-noori.github.io/My-Portfolio',
+    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+  },
+  {
+    id: '6',
+    title: 'Multi-Post Stories Gain+Glory',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
+    img: 'images/project-cart-snapshoot.svg',
+    demoLink: 'https://ab-noori.github.io/My-Portfolio',
+    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+  },
+];
+
+function generatProjectCarts() {
+  projectCarts.innerHTML = cartsData.map((x) => {
+    const {
+      id, title, desc, technogies,
+    } = x;
+    return `
+          <div class="recent-work-carts">
+              <div class="cart-snapshoot">
+
+              </div>
+              <div class="cart-summary">
+                  <h2 class="project-title">${title}</h2>
+                  <ul class="project-tags">
+                      <li >${technogies[0]}</li>
+                      <li >${technogies[1]}</li>
+                      <li >${technogies[2]}</li>
+                      <li >${technogies[3]}</li>
+                  </ul>
+                  <button class="btn"  data-modal-target="#modal${id}">See Project</button>
+              </div>
+          </div>
+
+          <div class="modal" id="modal${id}">
+              <div class="modal-header">
+                  <div class="modal-header-title">${title}</div>
+                  <button data-modal-close-button class="modal-header-close-button">&times;</button>
+              </div>
+              <div class="modal-body">${desc}</div>
+          </div>
+          <div id="overlay"></div> 
+      `;
+  }).join('');
+}
+
+generatProjectCarts();
+
 const humburger = document.querySelector('.humburger');
 const navMenu = document.querySelector('.nav-menu');
 const navBranding = document.querySelector('.nav-branding');
