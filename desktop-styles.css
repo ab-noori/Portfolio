@@ -18,6 +18,12 @@
     justify-content: center;
   }
 
+  .navbar ul li a {
+    color: #344563;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
   .humburger {
     display: none;
   }
@@ -31,6 +37,7 @@
     position: static;
     width: unset;
     flex-direction: row;
+    background-color: unset;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
@@ -129,5 +136,46 @@
 
   footer span {
     display: none;
+  }
+
+  /* ---------------------------------------Modal Styles---------------------------------- */
+
+  .modal {
+    width: 55vw;
+    max-height: 100vh;
+  }
+
+  .modal-header-content {
+    justify-content: space-between;
+  }
+
+  .modal-top-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .modal-bottom-links {
+    display: none;
+  }
+
+  .modal-header-close-button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 4vw;
+    font-weight: lighter;
+    color: rgb(241, 7, 7);
+    position: fixed;
+    top: 1vh;
+    right: 1.5vw;
+  }
+
+  .modal-body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
   }
 }
