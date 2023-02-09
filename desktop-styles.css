@@ -141,8 +141,18 @@
   /* ---------------------------------------Modal Styles---------------------------------- */
 
   .modal {
-    width: 55vw;
-    max-height: 100vh;
+    width: 40vw;
+    max-height: 95vh;
+    padding: 30px 10px 5px;
+  }
+
+  #popup-snapshoot-mobile {
+    display: none;
+  }
+
+  #popup-snapshoot-desktop {
+    display: unset;
+    height: 60vh;
   }
 
   .modal-header-content {
@@ -150,26 +160,9 @@
   }
 
   .modal-top-links {
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
-  }
-
-  .modal-bottom-links {
-    display: none;
-  }
-
-  .modal-header-close-button {
-    border: none;
-    outline: none;
-    background: none;
-    cursor: pointer;
-    font-size: 4vw;
-    font-weight: lighter;
-    color: rgb(241, 7, 7);
-    position: fixed;
-    top: 1vh;
-    right: 1.5vw;
   }
 
   .modal-body {
