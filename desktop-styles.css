@@ -165,6 +165,23 @@
     justify-content: space-around;
   }
 
+  .modal-bottom-links {
+    display: none;
+  }
+
+  .modal-header-close-button {
+    color: #67798e;
+    background-color: #ebecf0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    position: fixed;
+    top: 15px;
+    right: 30px;
+  }
+
   .modal-body {
     font-weight: 400;
     font-size: 16px;
