@@ -42,6 +42,25 @@
   display: none;
 }
 
+.modal-header-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header-close-button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  position: fixed;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 2rem;
+  top: 27px;
+  right: 33px;
+}
+
 .modal-body {
   padding: 10px 15px;
 }
@@ -68,3 +87,4 @@
   opacity: 1;
   pointer-events: all;
 }
+
