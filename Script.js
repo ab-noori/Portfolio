@@ -60,7 +60,7 @@ const cartsData = [
 function generatProjectCarts() {
   projectCarts.innerHTML = cartsData.map((x) => {
     const {
-      id, title, desc, technogies,
+      id, title, desc, technogies, demoLink, sourceLink,
     } = x;
     return `
           <div class="recent-work-carts">
@@ -89,8 +89,8 @@ function generatProjectCarts() {
               <div class="modal-header-content">
                 <div class="modal-header-title">${title}</div>
                 <div class="modal-top-links">
-                  <button class="btn">See Project</button>
-                  <button class="btn">See Project</button>
+                  <button class="btn"><a href="${demoLink}"> See Live <img src="images/Icons/Icon-see-live.svg" alt="Link icon"></a></button>
+                  <button class="btn"><a href="${sourceLink}"> See Source <img src="images/Icons/Icon-see-source.svg" alt="GitHub icon"></a></button>
                 </div>
               </div>  
               <ul class="project-tags">
@@ -102,8 +102,8 @@ function generatProjectCarts() {
             </div>
             <div class="modal-body">${desc}</div>
             <div class="modal-bottom-links">
-              <button class="btn">See Project</button>
-              <button class="btn">See Project</button>
+              <button class="btn"><a href="${demoLink}"> See Live <img src="images/Icons/Icon-see-live.svg" alt="Link icon"></a></button>
+              <button class="btn"><a href="${sourceLink}"> See Source <img src="images/Icons/Icon-see-source.svg" alt="GitHub icon"></a></button>
             </div>
           </div>
           <div id="overlay"></div> 

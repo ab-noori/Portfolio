@@ -38,6 +38,18 @@
   display: flex;
 }
 
+.modal-header ul li {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  color: #3a4a42;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
 .modal-top-links {
   display: none;
 }
@@ -87,4 +99,3 @@
   opacity: 1;
   pointer-events: all;
 }
-

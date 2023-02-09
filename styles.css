@@ -11,12 +11,25 @@
 }
 
 .btn {
-  height: 24px;
   padding: 12px;
   color: white;
+  height: 24px;
   text-decoration: none;
   background-color: #36b37f;
   border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  border: none;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
 }
 
 body {
