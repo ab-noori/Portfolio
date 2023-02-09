@@ -140,6 +140,25 @@
 
   /* ---------------------------------------Modal Styles---------------------------------- */
 
+  .modal {
+    width: 55vw;
+    max-height: 100vh;
+  }
+
+  .modal-header-content {
+    justify-content: space-between;
+  }
+
+  .modal-top-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .modal-bottom-links {
+    display: none;
+  }
+
   .modal-header-close-button {
     border: none;
     outline: none;
@@ -147,9 +166,16 @@
     cursor: pointer;
     font-size: 4vw;
     font-weight: lighter;
-    color: white;
+    color: rgb(241, 7, 7);
     position: fixed;
     top: 1vh;
     right: 1.5vw;
+  }
+
+  .modal-body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
   }
 }
