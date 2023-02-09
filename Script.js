@@ -4,7 +4,7 @@ const cartsData = [
   {
     id: '1',
     title: 'Multi-Post Stories Gain+Glory',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/project-cart-snapshoot.svg',
     demoLink: 'https://ab-noori.github.io/My-Portfolio',
@@ -65,7 +65,7 @@ function generatProjectCarts() {
     return `
           <div class="recent-work-carts">
               <div class="cart-snapshoot">
-
+                
               </div>
               <div class="cart-summary">
                   <h2 class="project-title">${title}</h2>
@@ -80,11 +80,31 @@ function generatProjectCarts() {
           </div>
 
           <div class="modal" id="modal${id}">
-              <div class="modal-header">
-                  <div class="modal-header-title">${title}</div>
-                  <button data-modal-close-button class="modal-header-close-button">&times;</button>
-              </div>
-              <div class="modal-body">${desc}</div>
+            <button data-modal-close-button class="modal-header-close-button">&times;</button>
+            <div class="popup-snapshoot">
+              <img src="images/desktop-popup-image.svg" width="100%" id="popup-snapshoot-desktop" alt="desktop popup snapshoot">
+              <img src="images/mobile-popup-image.svg" id="popup-snapshoot-mobile" alt="mobile popup snapshoot">
+            </div>
+            <div class="modal-header">
+              <div class="modal-header-content">
+                <div class="modal-header-title">${title}</div>
+                <div class="modal-top-links">
+                  <button class="btn">See Project</button>
+                  <button class="btn">See Project</button>
+                </div>
+              </div>  
+              <ul class="project-tags">
+                <li >${technogies[0]}</li>
+                <li >${technogies[1]}</li>
+                <li >${technogies[2]}</li>
+                <li >${technogies[3]}</li>
+              </ul>
+            </div>
+            <div class="modal-body">${desc}</div>
+            <div class="modal-bottom-links">
+              <button class="btn">See Project</button>
+              <button class="btn">See Project</button>
+            </div>
           </div>
           <div id="overlay"></div> 
       `;
