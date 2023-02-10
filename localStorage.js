@@ -8,3 +8,8 @@ formString.addEventListener('input', () => {
 
   localStorage.setItem('formString', JSON.stringify(information));
 });
+
+const formObj = JSON.parse(localStorage.getItem('formString'));
+document.getElementById('name').value = formObj.name;
+document.getElementById('email').value = formObj.email;
+document.getElementById('textarea').value = formObj.message;
