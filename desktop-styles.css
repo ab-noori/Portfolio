@@ -18,6 +18,12 @@
     justify-content: center;
   }
 
+  .navbar ul li a {
+    color: #344563;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
   .humburger {
     display: none;
   }
@@ -31,6 +37,7 @@
     position: static;
     width: unset;
     flex-direction: row;
+    background-color: unset;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
@@ -129,5 +136,73 @@
 
   footer span {
     display: none;
+  }
+
+  /* ---------------------------------------Modal Styles---------------------------------- */
+
+  .modal {
+    width: 600px;
+    max-height: 95vh;
+    padding: 30px 10px 5px;
+  }
+
+  #popup-snapshoot-mobile {
+    display: none;
+  }
+
+  #popup-snapshoot-desktop {
+    margin-top: 5px;
+    display: unset;
+    min-height: 60vh;
+  }
+
+  .modal-header-content {
+    justify-content: space-between;
+  }
+
+  .modal-top-links {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .modal-top-links .btn {
+    min-width: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .modal-top-links .btn a {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 4px;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .modal-bottom-links {
+    display: none;
+  }
+
+  .modal-header-close-button {
+    color: #67798e;
+    background-color: #ebecf0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    position: fixed;
+    top: 15px;
+    right: 30px;
+  }
+
+  .modal-body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #344563;
   }
 }
