@@ -87,6 +87,12 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
+Use the following Commands:
+  - cd your-desired-folder
+  - git clone git@github.com:ab-noori/My-Portfolio.git
+
+
+
 
 ### Install
 

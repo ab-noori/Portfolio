@@ -423,6 +423,11 @@ header {
   border-radius: 8px;
 }
 
+.form-itself small {
+  color: red;
+  font-size: 0.8rem;
+}
+
 /* ----------------------------------form Section------------------------------------ */
 
 .from-section {
@@ -481,7 +486,7 @@ header {
   align-self: center;
 }
 
-/* ----------------------------------form Section------------------------------------ */
+/* ----------------------------------footer Section------------------------------------ */
 
 footer {
   display: flex;
