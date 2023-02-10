@@ -141,7 +141,7 @@
   /* ---------------------------------------Modal Styles---------------------------------- */
 
   .modal {
-    width: 40vw;
+    width: 600px;
     max-height: 95vh;
     padding: 30px 10px 5px;
   }
@@ -151,8 +151,9 @@
   }
 
   #popup-snapshoot-desktop {
+    margin-top: 5px;
     display: unset;
-    height: 60vh;
+    min-height: 60vh;
   }
 
   .modal-header-content {
@@ -162,7 +163,23 @@
   .modal-top-links {
     width: 45%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .modal-top-links .btn {
+    min-width: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .modal-top-links .btn a {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 4px;
+    justify-content: space-between;
+    text-align: center;
   }
 
   .modal-bottom-links {
@@ -185,7 +202,7 @@
   .modal-body {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 25px;
     color: #344563;
   }
 }

@@ -1,5 +1,5 @@
 .modal {
-  width: 90vw;
+  width: 352px;
   max-height: 90vh;
   top: 50%;
   left: 50%;
@@ -10,6 +10,7 @@
   background-color: white;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
+  overflow-y: auto;
 }
 
 .popup-snapshoot {
@@ -49,10 +50,6 @@
   line-height: 16px;
 }
 
-.modal-top-links {
-  display: none;
-}
-
 .modal-header-title {
   font-size: 1.25rem;
   font-weight: bold;
@@ -68,7 +65,7 @@
   font-size: 2rem;
   font-weight: lighter;
   line-height: 2rem;
-  top: 27px;
+  top: 26px;
   right: 33px;
 }
 
@@ -79,7 +76,29 @@
 .modal-bottom-links {
   display: flex;
   padding: 10px 15px 20px;
-  justify-content: space-around;
+  gap: 20px;
+  justify-content: center;
+}
+
+.modal-bottom-links .btn {
+  min-width: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+.modal-bottom-links .btn a {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.modal-top-links {
+  display: none;
 }
 
 #overlay {

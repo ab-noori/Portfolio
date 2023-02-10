@@ -36,6 +36,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 .wrapper {
