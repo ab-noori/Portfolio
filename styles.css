@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -35,7 +35,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Inter", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
@@ -327,7 +327,8 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: url("images/aboutme-topright.svg"), url("images/aboutme-bottomleft.svg");
+  background: url("images/aboutme-topright.svg"),
+    url("images/aboutme-bottomleft.svg");
   background-position: right top, left bottom;
   background-repeat: no-repeat;
 }
@@ -447,6 +448,13 @@ header {
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+
+.about-me-header .btn,
+.form-itself .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-header {
