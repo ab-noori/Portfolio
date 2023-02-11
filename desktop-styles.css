@@ -142,18 +142,19 @@
 
   .modal {
     width: 600px;
-    max-height: 95vh;
-    padding: 30px 10px 5px;
+    height: 85vh;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   #popup-snapshoot-mobile {
     display: none;
   }
 
-  #popup-snapshoot-desktop {
-    margin-top: 5px;
+  .popup-snapshoot #popup-snapshoot-desktop {
     display: unset;
-    min-height: 60vh;
+    width: 580px;
   }
 
   .modal-header-content {
@@ -163,7 +164,7 @@
   .modal-top-links {
     width: 45%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 5px;
   }
 
@@ -171,6 +172,9 @@
     min-width: 100px;
     text-align: center;
     padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .modal-top-links .btn a {
@@ -186,23 +190,24 @@
     display: none;
   }
 
-  .modal-header-close-button {
-    color: #67798e;
-    background-color: #ebecf0;
+  .modal-header-close-button-desktop {
+    display: unset;
+    position: unset;
+    padding: 0;
+    width: 40px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 2rem;
-    font-weight: lighter;
-    line-height: 2rem;
-    position: fixed;
-    top: 15px;
-    right: 30px;
+    border: none;
+  }
+
+  .modal-header-close-button {
+    display: none;
   }
 
   .modal-body {
     font-weight: 400;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 30px;
     color: #344563;
   }
 }
