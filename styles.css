@@ -327,8 +327,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: url("images/aboutme-topright.svg"),
-    url("images/aboutme-bottomleft.svg");
+  background: url("images/aboutme-topright.svg"), url("images/aboutme-bottomleft.svg");
   background-position: right top, left bottom;
   background-repeat: no-repeat;
 }
@@ -352,6 +351,9 @@ header {
   width: 135px;
   font-weight: 500;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-me-carts-container {
@@ -450,13 +452,6 @@ header {
   gap: 30px;
 }
 
-.about-me-header .btn,
-.form-itself .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .form-header {
   font-size: 2rem;
   font-weight: 600;
@@ -491,7 +486,9 @@ header {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ----------------------------------footer Section------------------------------------ */
