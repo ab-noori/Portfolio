@@ -1,12 +1,13 @@
 .modal {
-  width: 352px;
-  max-height: 90vh;
+  width: 313px;
   top: 50%;
   left: 50%;
   z-index: 50;
   position: fixed;
-  border-radius: 10px;
-  border: 1px solid green;
+  border-radius: 15px;
+  padding: 15px;
+  display: grid;
+  gap: 10px;
   background-color: white;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
@@ -14,7 +15,6 @@
 }
 
 .popup-snapshoot {
-  padding: 15px;
   display: flex;
   justify-content: center;
 }
@@ -28,7 +28,6 @@
 }
 
 .modal-header {
-  padding: 10px 15px;
   display: flex;
   gap: 10px;
   flex-direction: column;
@@ -61,21 +60,20 @@
   background: none;
   cursor: pointer;
   position: fixed;
-  color: #fff;
-  font-size: 2rem;
-  font-weight: lighter;
-  line-height: 2rem;
-  top: 26px;
-  right: 33px;
+  top: 34px;
+  right: 31px;
+}
+
+.modal-header-close-button-desktop {
+  display: none;
 }
 
 .modal-body {
-  padding: 10px 15px;
+  padding: 0;
 }
 
 .modal-bottom-links {
   display: flex;
-  padding: 10px 15px 20px;
   gap: 20px;
   justify-content: center;
 }
@@ -84,6 +82,9 @@
   min-width: 100px;
   text-align: center;
   padding: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .modal-bottom-links .btn a {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -35,7 +35,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Inter", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
@@ -351,6 +351,9 @@ header {
   width: 135px;
   font-weight: 500;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-me-carts-container {
@@ -483,7 +486,9 @@ header {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ----------------------------------footer Section------------------------------------ */
