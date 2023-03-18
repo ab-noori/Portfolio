@@ -60,7 +60,7 @@ const cartsData = [
 function generatProjectCarts() {
   projectCarts.innerHTML = cartsData.map((x) => {
     const {
-      id, title, desc, technogies, demoLink, sourceLink,
+      id, title, desc, technogies, img, demoLink, sourceLink,
     } = x;
     return `
           <div class="recent-work-carts">
