@@ -83,8 +83,8 @@ function generatProjectCarts() {
             <button data-modal-close-button class="modal-header-close-button"><img src="images/Icons/Icom-popup-close.svg" alt="Link icon"></button>
             <button data-modal-close-button class="modal-header-close-button-desktop"><img src="images/Icons/Icom-popup-close-desktop.svg" alt="Link icon"></button>
             <div class="popup-snapshoot">
-              <img src="images/desktop-popup-image.png" id="popup-snapshoot-desktop" alt="desktop popup snapshoot">
-              <img src="images/mobile-popup-image.svg" id="popup-snapshoot-mobile" alt="mobile popup snapshoot">
+              <img src="images/${img}" id="popup-snapshoot-desktop" alt="desktop popup snapshoot">
+              <img src="images/${img}" id="popup-snapshoot-mobile" alt="mobile popup snapshoot">
             </div>
             <div class="modal-header">
               <div class="modal-header-content">
