@@ -7,8 +7,8 @@ const cartsData = [
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p1.png',
-    demoLink: 'https://ab-noori.github.io/My-Portfolio',
-    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+    demoLink: 'https://ab-noori.github.io/SalsalDevGroup',
+    sourceLink: 'https://github.com/ab-noori/SalsalDevGroup',
   },
   {
     id: '2',
@@ -16,8 +16,8 @@ const cartsData = [
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p2.png',
-    demoLink: 'https://ab-noori.github.io/My-Portfolio',
-    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+    demoLink: 'https://ab-noori.github.io/AwesomeBooksES6',
+    sourceLink: 'https://github.com/ab-noori/AwesomeBooksES6',
   },
   {
     id: '3',
@@ -25,8 +25,8 @@ const cartsData = [
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p3.png',
-    demoLink: 'https://ab-noori.github.io/My-Portfolio',
-    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+    demoLink: 'https://ab-noori.github.io/To-Do-List',
+    sourceLink: 'https://github.com/ab-noori/To-Do-List',
   },
   {
     id: '4',
@@ -34,8 +34,8 @@ const cartsData = [
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p4.png',
-    demoLink: 'https://ab-noori.github.io/My-Portfolio',
-    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+    demoLink: 'https://ab-noori.github.io/OnlineBookStore',
+    sourceLink: 'https://github.com/ab-noori/OnlineBookStore',
   },
   {
     id: '5',
@@ -43,8 +43,8 @@ const cartsData = [
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p5.png',
-    demoLink: 'https://ab-noori.github.io/My-Portfolio',
-    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+    demoLink: 'https://ab-noori.github.io/Webpack-Joke-App',
+    sourceLink: 'https://github.com/ab-noori/Webpack-Joke-App',
   },
   {
     id: '6',
@@ -52,8 +52,8 @@ const cartsData = [
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p6.png',
-    demoLink: 'https://ab-noori.github.io/My-Portfolio',
-    sourceLink: 'https://github.com/ab-noori/My-Portfolio',
+    demoLink: 'https://ab-noori.github.io/Awesome-Books',
+    sourceLink: 'https://github.com/ab-noori/Awesome-Books',
   },
 ];
 
@@ -84,7 +84,7 @@ function generatProjectCarts() {
             <button data-modal-close-button class="modal-header-close-button-desktop"><img src="images/Icons/Icom-popup-close-desktop.svg" alt="Link icon"></button>
             <div class="popup-snapshoot">
               <img src="${img}" id="popup-snapshoot-desktop" alt="desktop popup snapshoot">
-              <img src="${img}" id="popup-snapshoot-mobile" alt="mobile popup snapshoot">
+              <img src="${img}" width="100%" id="popup-snapshoot-mobile" alt="mobile popup snapshoot">
             </div>
             <div class="modal-header">
               <div class="modal-header-content">
