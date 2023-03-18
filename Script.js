@@ -3,8 +3,8 @@ const projectCarts = document.getElementById('project-carts');
 const cartsData = [
   {
     id: '1',
-    title: 'Multi-Post Stories Gain+Glory',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur.',
+    title: 'Salsal Development Group Website',
+    desc: 'SalsalDevGroup Website is a platform to showcase the Salsal Developers group recent projects, maintain the information and history of the group recent projects, the short biography of each developer, and the link to recent projects. it will also provide the context for receiving proposals and contacting the clients in its future features.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p1.png',
     demoLink: 'https://ab-noori.github.io/SalsalDevGroup',
@@ -12,8 +12,8 @@ const cartsData = [
   },
   {
     id: '2',
-    title: 'Multi-Post Stories Gain+Glory',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    title: 'Awesom Books Project with ES6',
+    desc: 'Awesome Books ES6 is a simple website that is created using ES6 syntax and modules to displays a list of books and allows you to add and remove books from that list.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p2.png',
     demoLink: 'https://ab-noori.github.io/AwesomeBooksES6',
@@ -21,8 +21,8 @@ const cartsData = [
   },
   {
     id: '3',
-    title: 'Multi-Post Stories Gain+Glory',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    title: 'To Do List Project with Webpack',
+    desc: 'In this project, we will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p3.png',
     demoLink: 'https://ab-noori.github.io/To-Do-List',
@@ -30,8 +30,8 @@ const cartsData = [
   },
   {
     id: '4',
-    title: 'Multi-Post Stories Gain+Glory',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    title: 'Online Book Store Project with ES6',
+    desc: 'A simple book store with vanilla JavaScript. You can select multiple numbers of books. Adding them to cart, removing them from cart, decreasing and increasing the cart amount and calculating the total cost of the cart.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p4.png',
     demoLink: 'https://ab-noori.github.io/OnlineBookStore',
@@ -39,8 +39,8 @@ const cartsData = [
   },
   {
     id: '5',
-    title: 'Multi-Post Stories Gain+Glory',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    title: 'Simple Webpack Joke Application',
+    desc: ' A simple webpack joke application. but actually it is a frontend webpack environment boilerplate for building JavaScript applications, which I can later use as a starting point in my projects.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p5.png',
     demoLink: 'https://ab-noori.github.io/Webpack-Joke-App',
@@ -48,8 +48,8 @@ const cartsData = [
   },
   {
     id: '6',
-    title: 'Multi-Post Stories Gain+Glory',
-    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias omnis non consequuntur. Labore blanditiis adipisci facilis tenetur minima, dolores voluptatem earum deserunt, laudantium harum incidunt.',
+    title: 'Awesom Books Project No Modules',
+    desc: 'Awesome Books is a simple website that displays a list of books and allows you to add and remove books from that list.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p6.png',
     demoLink: 'https://ab-noori.github.io/Awesome-Books',
@@ -65,7 +65,7 @@ function generatProjectCarts() {
     return `
           <div class="recent-work-carts">
               <div class="cart-snapshoot">
-                
+                <img src="${img}" width="100%" alt="desktop popup snapshoot">
               </div>
               <div class="cart-summary">
                   <h2 class="project-title">${title}</h2>
