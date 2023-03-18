@@ -43,7 +43,7 @@ const cartsData = [
     desc: ' A simple webpack joke application. but actually it is a frontend webpack environment boilerplate for building JavaScript applications, which I can later use as a starting point in my projects.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p5.png',
-    demoLink: 'https://ab-noori.github.io/Webpack-Joke-App/dsit',
+    demoLink: 'https://ab-noori.github.io/Webpack-Joke-App/dist',
     sourceLink: 'https://github.com/ab-noori/Webpack-Joke-App',
   },
   {
