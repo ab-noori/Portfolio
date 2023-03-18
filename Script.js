@@ -25,7 +25,7 @@ const cartsData = [
     desc: 'In this project, we will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p3.png',
-    demoLink: 'https://ab-noori.github.io/To-Do-List',
+    demoLink: 'https://ab-noori.github.io/To-Do-List/dist',
     sourceLink: 'https://github.com/ab-noori/To-Do-List',
   },
   {
@@ -43,7 +43,7 @@ const cartsData = [
     desc: ' A simple webpack joke application. but actually it is a frontend webpack environment boilerplate for building JavaScript applications, which I can later use as a starting point in my projects.',
     technogies: ['Ruby on rails', 'CSS', 'HTML', 'JavScript'],
     img: 'images/p5.png',
-    demoLink: 'https://ab-noori.github.io/Webpack-Joke-App',
+    demoLink: 'https://ab-noori.github.io/Webpack-Joke-App/dsit',
     sourceLink: 'https://github.com/ab-noori/Webpack-Joke-App',
   },
   {
