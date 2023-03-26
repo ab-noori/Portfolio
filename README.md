@@ -22,9 +22,9 @@
 -->
 
 > # Portfolio
-### Desktop view shoots for this project:
+###  :
 
-| Desktop Veiw Representation|
+| Project Veiw Representation|
 |---------------------------------------|
 |<div align="center">![screenshot](./src/assets/desktop-shot.PNG)</div>|
 |<div align="center">![screenshot](./src/assets/mobile-shot.PNG)</div>|
