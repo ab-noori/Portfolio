@@ -24,8 +24,8 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center">![screenshot](./src/assets/desktop-shot.PNG)</div>|
-|<div align="center">![screenshot](./src/assets/mobile-shot.PNG)</div>|
+|<div align="center">![screenshot](./images/desktop-shot.PNG)</div>|
+|<div align="center">![screenshot](./images/mobile-shot1.PNG) ![screenshot](./images/mobile-shot2.PNG)</div>|
 
 # 📗 Table of Contents
 
