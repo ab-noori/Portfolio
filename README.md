@@ -4,7 +4,6 @@
 
 <div align="center">
 
-
 </div>
 
 <!-- Open pull request using the following structure
