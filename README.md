@@ -22,9 +22,8 @@
 -->
 
 > # Portfolio
-###  :
 
-| Project Veiw Representation|
+| Project Veiw Screenshots|
 |---------------------------------------|
 |<div align="center">![screenshot](./src/assets/desktop-shot.PNG)</div>|
 |<div align="center">![screenshot](./src/assets/mobile-shot.PNG)</div>|
