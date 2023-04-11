@@ -264,6 +264,10 @@ header {
   height: 252px;
 }
 
+.cart-snapshoot img {
+  border-radius: 3px 3px 0 0;
+}
+
 .cart-summary {
   width: calc(100% - 22px);
   height: 200px;
