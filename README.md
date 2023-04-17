@@ -139,8 +139,11 @@ Install this project with:
 ### Run tests
 - Run the following script and style test:
 
-      npx eslint "**/*.{js,jsx}"
-      npx eslint "**/*.{js,jsx}" --fix
+      npx hint .
+      npx hint . --fix
+      
+      npx eslint .
+      npx eslint . --fix
 
       npx stylelint "**/*.{css,scss}"
       npx stylelint "**/*.{css,scss}" --fix
