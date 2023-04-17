@@ -135,6 +135,11 @@ Install this project with:
 - To represent the most recent project.
 - to maitain connection with visitors.
 
+### Tests
+
+- To demonstrate your skills & knowlege of technoly.
+- To represent the most recent project.
+- to maitain connection with visitors.
 
 ### Deployment
 
