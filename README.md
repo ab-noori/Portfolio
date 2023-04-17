@@ -39,6 +39,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -135,11 +136,14 @@ Install this project with:
 - To represent the most recent project.
 - to maitain connection with visitors.
 
-### Tests
+### Run tests
+- Run the following script and style test:
 
-- To demonstrate your skills & knowlege of technoly.
-- To represent the most recent project.
-- to maitain connection with visitors.
+      npx eslint "**/*.{js,jsx}"
+      npx eslint "**/*.{js,jsx}" --fix
+
+      npx stylelint "**/*.{css,scss}"
+      npx stylelint "**/*.{css,scss}" --fix
 
 ### Deployment
 
