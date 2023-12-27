@@ -8,8 +8,6 @@
 
 <!-- Open pull request using the following structure
 
-  ## Project title: subtitle
-
 -->
 
 > # Portfolio
