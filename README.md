@@ -12,10 +12,6 @@
 
   ### 🌟Branch features:
 
-  - i
-  - ii
-  - ii
-
 -->
 
 > # Portfolio
