@@ -10,8 +10,6 @@
 
   ## Project title: subtitle
 
-  ### 🌟Branch features:
-
 -->
 
 > # Portfolio
