@@ -6,10 +6,6 @@
 
 </div>
 
-<!-- Open pull request using the following structure
-
--->
-
 > # Portfolio
 
 | Project Veiw Screenshots|
